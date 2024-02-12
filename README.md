@@ -1,41 +1,22 @@
-# Website
+# Bienvenue dans mon blog Docusaurus
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Ce dépôt contient le code source de mon blog personnel accessible via [https://mossaabfrifita.github.io](https://mossaabfrifita.github.io).
 
-### Installation
+## Installation
 
-```
-$ yarn
-```
+Pour exécuter localement ce blog, suivez ces étapes :
 
-### Local Development
+1. Clonez ce dépôt sur votre machine locale.
+2. Assurez-vous d'avoir Node.js installé sur votre système.
+3. Installez les dépendances en exécutant `npm install`.
+4. Lancez le serveur de développement en exécutant `npm start`.
 
-```
-$ yarn start
-```
+## Contributions
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Je suis ouvert aux contributions et aux suggestions d'amélioration ! Si vous avez des idées d'articles, des corrections à apporter ou des fonctionnalités à ajouter, n'hésitez pas à me contacter.
 
-### Build
+## Contact
 
-```
-$ yarn build
-```
+Si vous avez des questions ou des commentaires, n'hésitez pas à me contacter par e-mail à [frifita1@email.com](mailto:frifita1@gmail.com).
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Merci de visiter mon blog !

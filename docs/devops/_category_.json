@@ -1,8 +1,8 @@
 {
-  "label": "DevOps",
+  "label": "DevOps CI/CD pipeline",
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "Lecture de 3 heures : Mettez en place un pipeline CI/CD DevOps complet dans un environnement Windows/Linux avec Jenkins, SonarQube, Nexus, Docker et Ansible",
   }
 }

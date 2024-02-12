@@ -19,8 +19,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/category/devops">
-              Mes articles
+            to="/docs/category/devops-cicd-pipeline">
+              Débutez et/ou Progressez
           </Link>
         </div>
       </div>
@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Layout
       title={`Le site d'un développeur passioné ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Le blog de Mossaab Frifita">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

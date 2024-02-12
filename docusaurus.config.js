@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Bienvenue dans Mon Blog Personnel',
+  title: 'ON APPREND SANS CESSE',
   tagline: "Passionné d'informatique depuis ma plus tendre enfance, mon objectif principal est de fournir un contenu professionnel, accessible et enrichissant pour tous, tout en partageant avec vous mon expérience et mes connaissances dans le domaine.",
   favicon: 'img/favicon.ico',
 
@@ -22,7 +22,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'MossaabFrifita', // Usually your GitHub org/user name.
   projectName: 'mossaabfrifita.github.io', // Usually your repo name.
-  deploymentBranch: 'main',
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
@@ -58,14 +58,13 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Mossaab',
+        title: 'Mossaab Frifita',
         logo: {
           alt: 'My Site Logo',
           src: 'img/custom-logo.jpg',
         },
         items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/docs/category/devops', label: 'DevOps', position: 'left'},
+          {to: '/docs/category/devops-cicd-pipeline', label: 'DevOps', position: 'left'},
           {to: '/docs/category/spring-framework', label: 'Spring', position: 'left'},
           {to: '/docs/category/angular', label: 'Angular', position: 'left'},
          
@@ -84,7 +83,7 @@ const config = {
             items: [
               {
                 label: 'Articles',
-                to: '/docs/category/devops',
+                to: '/docs/category/devops-cicd-pipeline',
               },
             ],
           },
