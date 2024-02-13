@@ -117,7 +117,7 @@ Petite information : pour vos propres serveurs et si vous avez un vrai nom de do
 
 ## Créez un docker hub proxy 
 
-### Créez un stockage blob pour le registre privé
+### Créez un stockage blob pour le registre public
 
 Le stockage blob permet de stocker les images docker.
 
